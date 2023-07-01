@@ -1,0 +1,268 @@
+header{
+    text-align: center;
+}
+.card{
+    width: 300px;
+    height: 900px;
+    border: 0px solid black;
+    margin: 20px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 10px;
+    transition: 0.5ss ease-in;
+    box-shadow: 2px 5px 8px black; 
+    background-color:rgba(92, 226, 186, 0.3) ;
+    
+    
+}
+h3{
+    color: #334A52;
+    font-family: monospace;
+    padding: 2px;
+    margin: 5px;
+    font-size: 25px;
+}
+img{
+ 
+    width: 100%;
+    border-radius:10px 10px 0 0;
+    box-shadow: 5px;
+    transition: 2s ease-in;
+}
+
+.intro{
+    font-size: 17px;
+    color: transparent;
+    font-family: monospace;
+    
+}
+.intro:hover{
+   color: black;
+  
+}
+
+body{
+    background-image: url(green.jpg);
+    background-size: cover;
+}
+.card:hover{
+    box-shadow: 17px 10px 25px black;
+}
+.prasu{
+    font-size: 20px;
+}
+.chesong{
+    font-size: 13px;
+    color: transparent;
+   font-family: monospace;
+}
+.prasu{
+    font-size: 20px;
+    color: transparent;
+   font-family: monospace;
+}
+.chesong:hover{
+    color: black;
+}
+.prasu:hover{
+    color: black;
+}
+.sam{
+    font-size: 20px;
+    color: transparent;
+    font-family: monospace;
+}
+.sam:hover{
+    color: black;
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.dengjir{
+    font-size: 20px;
+    color: transparent;
+    font-family: monospace;
+}
+.dengjir:hover{
+    color: black;
+}
+.banashri{
+    color: transparent;
+    font-family: monospace;
+    font-size: 17px;
+}
+.banashri:hover{
+    color: black;
+}
+.bonita{
+    color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight:1px;
+}
+.bonita:hover{
+    color: black;
+}
+.nikita{
+    color: transparent;
+    font-family: monospace;
+    font-size: 18px;
+}
+.nikita:hover{
+    color: black;
+}
+.anurag{
+    color: transparent;
+   font-family: monospace;
+   font-size: 14px;
+}
+.anurag:hover{
+    color: black;
+}
+.girl{
+    color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.girl:hover{
+    color: black;
+}
+.angjok{
+    color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+}
+.angjok:hover{
+    color: black;
+}
+h4{
+    font-size: 20px;
+}
+.rengseng{
+    color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+}
+.rengseng:hover{
+    color: black;
+}
+.ruben{
+    color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+}
+.ruben:hover{
+    color: black;
+   
+}
+#grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 1000px 1000px 1000px 1000px;
+    justify-content:center;
+}
+@media(max-width:700px){
+        #grid{
+            grid-template-columns: 400px ;
+            grid-template-rows: 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px 1000px;
+                
+    }
+    h1{
+        font-size: 15px;
+    }
+    .card{
+        width: 300px;
+        height: 900px;
+        border: 0px solid black;
+        margin: 20px;
+        align-items: center;
+        border-radius: 10px;
+        font-size: medium;
+        padding: 10px;
+        transition: 0.5ss ease-in;
+        box-shadow: 2px 5px 8px black; 
+       
+}
+}
+H1{
+    font-size: 50px;
+    font-family: monospace;
+    color: #334A52;
+}
+h2{
+    font-size: large;
+    font-family: monospace;
+    color: rgba(51, 74, 82,0.6);
+}
+#fh3{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+footer{
+    background-color:rgb(133, 221, 195);
+   
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 20px 30px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+
+    
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.8;
+}
+.socialicon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicon a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+h5{
+    
+}
+.btm{
+    background-color: rgb(133, 221, 195);
+    color: white;
+    text-align: center;
+    
+}
+.span{
+    text-transform: uppercase;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
